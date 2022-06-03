@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+.counterApp {
+  display: 'flex';
+  flex-direction: 'column';
+  align-items: 'center';
+  justify-content: 'center';
+  text-align: center;
+  margin: 10px;
+  font-size: 200%;
+}
+
+.counter {
+  font-size: 100px;
+  margin: 10px 0 10px 0;
+}
+
+.subtractButton {
+  background-color: lightcoral;
+  color: black;
+  margin-right: 5px;
+}
+
+.addButton {
+  background-color: lightgreen;
+  color: black;
+  margin-left: 5px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
